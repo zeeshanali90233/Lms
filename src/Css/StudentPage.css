@@ -1,0 +1,28 @@
+.addstudent:hover{
+    background-color: #00c3ff;
+    color: white;
+}
+
+#edit {
+    padding: 5px;
+    outline: none;
+  }
+  
+   #edit-button {
+    width: 80px;
+    padding: 5px;
+    margin: 0 3px;
+    /* background-color: #ff7e00; */
+    outline: none;
+    /* border: 1px solid #ff7e00; */
+    box-shadow: 2px 2px 2px #3f3f3f;
+  }
+  
+   #edit-button:hover {
+    box-shadow: 2px 2px 3px ;
+  }
+  
+   #edit-button:active {
+    box-shadow: 1px 1px 3px ;
+  }
+  

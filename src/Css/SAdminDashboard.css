@@ -1,0 +1,106 @@
+
+
+.admin-sidebar{
+    width: 170px;
+}
+
+.option{
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.option:hover{
+    background-color: #00c3ff;
+
+}
+.accordion-button:hover{
+    background-color: #00c3ff !important;
+}
+
+.main-content{
+    margin-left: 170px;
+}
+
+.admin-sidebar{
+    height: 130rem; 
+
+}
+
+.admin-dashboard .footer{
+    z-index: 1000;
+    background-color: #00233a;
+}
+
+.teacher-dashboard .footer{
+    z-index: 1000;
+    background-color: #00233a;
+}
+
+.sadmin-dashboard .footer{
+    z-index: 1000;
+    background-color: #00233a;
+}
+
+.student-dashboard .footer{
+    z-index: 1000;
+    background-color: #00233a;
+}
+
+@media screen and (max-width:992px) {
+    /* Log Out button margin top when navbar hanmburger icons is visible  plus with search bar search button */
+    .btn-logout{
+        margin-top: 15px !important;        
+    }
+    .search-bar{
+
+        flex-direction: column;
+    }   
+    .btn-search{
+        margin-top: 15px !important;
+    }
+    .admin-sidebar{
+        height: 140rem;
+    }
+
+    @media screen  and (max-width:650px){
+        .option {
+            flex-direction: column;
+        }
+        .admin-sidebar{
+            width: 110px;
+            height: 150rem;
+        }
+        .main-content{
+            margin-left: 110px;
+        }
+        .option .icon,.option .text{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .admin-dashboard .footer{
+            padding-bottom: 2rem;
+        }
+
+        @media screen and (max-width:500px) {
+            .admin-sidebar{
+                height: 160rem;
+            }
+        }
+    }
+        
+    
+    /* when the screen size is very small */
+    @media screen and (max-width:200px) {
+        .admin-sidebar{
+            width: 90px;
+            height:170rem;
+        }
+        .option .text{
+            display: none;
+        }
+        .main-content{
+            margin-left: 90px;
+        }
+        
+    }
+}

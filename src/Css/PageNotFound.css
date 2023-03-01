@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #00233a;
+    --secondary-color: #002b50;
+    --button-bg-color: #002b50;
+    --button-bg-color-hover: #002342;
+}
+
+/* utilities classes-to avoid duplications */
+.btn-padd {
+    padding: 0.5rem 2rem;
+}
+
+.btn-marg {
+    margin: 0 10px;
+}
+
+.txt-color {
+    color: white;
+}
+.page-404-btns{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+
+/*************************************************************************************************************/
+
+.not-found-head{
+    font-size: 3rem;
+    color: var(--primary-color);
+
+}
+.not-found-container {
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: center;
+    margin: 10rem auto;
+}
+
+.not-found-heading {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    color: var(--primary-color);
+}
+
+.not-found-text {
+    color: var(--secondary-color);
+    margin: 26px 0;
+    font-weight: 600;
+}
+
+.not-found-backhome {
+
+    border: none;
+    outline: none;
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+    color: white;
+}
+
+.not-found-backhome:hover {
+    background-color: var(--button-bg-color-hover);
+
+}
+
+.not-found-contact {
+    border: none;
+    outline: none;
+    background-color: var(--button-bg-color);
+    color: white;
+    cursor: pointer;
+}
+
+.not-found-contact:hover {
+
+    background-color: var(--button-bg-color-hover);
+}

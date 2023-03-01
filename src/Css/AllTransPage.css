@@ -1,0 +1,13 @@
+.btn-showAllTrans:hover{
+    background-color: #00c3ff !important;
+}
+
+/* The AllTransPage and TransDisplay component Both have this common css file */
+@media screen and (max-width:650px) {
+    .trans-to{
+        display: flex;
+        justify-content: center;
+    }
+    .trans-id,.trans-date{
+        display:none;    }
+}

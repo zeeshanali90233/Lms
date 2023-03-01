@@ -1,0 +1,14 @@
+
+.fee-defaulter{
+    background-color: rgb(241, 57, 57) !important;
+    
+}
+
+/* The FeeDisplay and FeesPage Both have this common css file */
+@media screen and (max-width:650px) {
+    .student-name{
+        display:none;    }
+    .fees-sid,.stotal-fees,.sinstalllment-fees,.sfee-paid{
+        width: auto !important;
+    }
+}

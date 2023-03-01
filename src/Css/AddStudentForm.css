@@ -1,0 +1,11 @@
+.required{
+    color: red;
+}
+
+.btn-addstudent{
+    color: white;
+    background-color: #00233a;
+}
+.btn-addstudent:hover{
+    background-color: #393c41;
+}

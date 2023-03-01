@@ -1,0 +1,73 @@
+:root{
+    /* without hover */
+    --grey:#393c41;
+    --blue:#00233a;
+    --yellow:#f7bf41;
+    --skyBlue:#337ab7;
+    --staff:rgb(138, 136, 136);
+    /* with hover */
+    --darkgrey:#282a2e;
+    --lightBlue:#024674;
+    --darkYellow:#463100;
+    --darkSkyBlue:#286090;
+    --staffHover:rgb(94, 93, 93);
+  }
+
+  
+/* Home Page Styling */
+.home-container .header{
+    background-color: #eeeeee;
+  }
+  
+  .home-container .header h1{
+    font-size: 63px;
+  }
+  
+  
+  .login-panel h2{
+    font-size: 18px;
+    color: white;
+  }
+  /* button with hover */
+  .login-panel .super-admin{
+    background-color: var(--darkgrey);
+  }
+  .login-panel .super-admin:hover{
+    background-color: var(--grey);
+  }
+  
+  .login-panel .admin{
+    background-color: var(--blue);
+  }
+  .login-panel .admin:hover{
+    background-color: var(--lightBlue);
+  }
+  
+  .login-panel .teacher-admin{
+    background-color: var(--darkYellow);
+  }
+  .login-panel .teacher-admin:hover{
+    background-color: var(--yellow);
+  }
+
+  .login-panel .staff{
+    background-color: var(--staff);
+  }
+  
+  .login-panel .staff:hover{
+    background-color: var(--staffHover);
+  }
+  
+  .login-panel .student{
+    background-color: var(--darkSkyBlue);
+  }
+  .login-panel .student:hover{
+    background-color: var(--skyBlue);
+  }
+  
+  .footer .text p a{
+    text-decoration: none;
+  }
+  .footer .text p a:hover{
+    text-decoration: underline;
+  }

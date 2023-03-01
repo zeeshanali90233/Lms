@@ -1,0 +1,17 @@
+.student-fee-chart{
+    width: 350px;
+}
+.student-enrolled-chart{
+    width: 700px;
+    
+}
+
+
+@media screen and (max-width:650px) {
+    .student-fee-chart{
+        width: 300px;
+    }
+    .student-enrolled-chart{
+        width: 350px;
+    }   
+}

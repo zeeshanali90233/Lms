@@ -1,0 +1,21 @@
+.salaryPaidButton:hover{
+    background-color: #00c3ff;
+}
+
+.btn-showAllTrans:hover{
+    background-color: #00c3ff;
+    color: white;
+}
+
+/* The Salary Display and Dues Page Both have this common css file */
+@media screen and (max-width:650px) {
+    .id,.salary,.salary-paid{
+        padding-right: 10px;
+        width: auto !important;
+    }
+    .salary-paid{
+        flex-direction:column;
+    }
+    .salary-name,.salary-month{
+        display:none;    }
+}
